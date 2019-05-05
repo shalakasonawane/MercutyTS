@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.module.TestngLogin"/>
+      <class name="com.module.TestngLaunch"/>
+      <parameter name="url" value="http://newtours.demoaut.com/"></parameter>
+      <parameter name="waittime" value="15"></parameter>
+      <parameter name="username" value="Suvidhyap1"></parameter>
+      <parameter name="password" value="P@ssword1"></parameter>
+      <parameter name="invalidu" value="paaa"></parameter>
+      <parameter name="invalidp" value="paaa"></parameter>
+      
+     
+      
+ </classes>
+ <methods>
+ <include name="Loginwithvalidds"></include>
+ </methods>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

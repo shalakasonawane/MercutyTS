@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="invalidu" value="paaa"/>
+    <parameter name="password" value="P@ssword1"/>
+    <parameter name="invalidp" value="paaa"/>
+    <parameter name="waittime" value="15"/>
+    <parameter name="url" value="http://newtours.demoaut.com/"/>
+    <parameter name="username" value="Suvidhyap1"/>
+    <classes>
+      <class name="com.module.TestngLogin">
+        <methods>
+          <include name="Loginwithinvalidds" invocation-numbers="0"/>
+          <include name="Loginwithvalidds" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.module.TestngLogin -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
